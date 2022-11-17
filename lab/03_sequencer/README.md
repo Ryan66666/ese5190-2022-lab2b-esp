@@ -12,4 +12,4 @@ Create a 'sequencer' that allows you to record BOOT button presses and play them
     - inputs: BOOT button, console commands, register read/write commands
     - outputs: neopixel color, neopixel brightness, data over serial, register read/write commands
 
-
+### record BOOT button

@@ -6,4 +6,5 @@ Toggle the Qt Py's Neopixel LED when the BOOT button is pressed, using only dire
 
 ### GIF 
 
-![image](https://user-images.githubusercontent.com/114255407/202758191-84f5e4df-5e72-49fe-addf-d4ab494858f8.png)
+![200071264-ddc996b9-6a6e-47c2-8de0-6e2bd2409831](https://user-images.githubusercontent.com/114255407/202758459-cc1a824e-0df5-4be7-a81b-6c6a059ecd35.gif)
+

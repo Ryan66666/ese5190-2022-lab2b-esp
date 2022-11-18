@@ -12,4 +12,19 @@ Create a 'sequencer' that allows you to record BOOT button presses and play them
     - inputs: BOOT button, console commands, register read/write commands
     - outputs: neopixel color, neopixel brightness, data over serial, register read/write commands
 
-### record BOOT button
+
+#### Worked with Katrina Ji & Yuchen Wang
+
+### record reading data from BOOT pin
+
+![202268733-38efb52a-c3af-4d6f-ab77-3d794cb96c40](https://user-images.githubusercontent.com/114255407/202771136-b7477bae-6b32-40d6-819e-8e443a524099.gif)
+
+The Python code will read the output from tty termial and record the status of BOOT PIN with sequencer.txt file on your computer.
+
+### re-displaing the data via WS2812 LED
+
+![202269079-c60ff665-0ff7-453c-b378-5822bd2fcb5f](https://user-images.githubusercontent.com/114255407/202771354-ad162cc7-43ef-4433-b348-74d8f79a14fc.gif)
+
+### recording data in txt file
+
+<img width="794" alt="202269338-4ad18a11-5259-47e8-9877-c0a61c3036d4" src="https://user-images.githubusercontent.com/114255407/202771421-23cf9703-f74d-412e-b2e3-792f832f420e.png">

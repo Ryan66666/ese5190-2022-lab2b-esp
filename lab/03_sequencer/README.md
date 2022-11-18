@@ -28,3 +28,16 @@ The Python code will read the output from tty termial and record the status of B
 ## recording data in txt file
 
 <img width="794" alt="202269338-4ad18a11-5259-47e8-9877-c0a61c3036d4" src="https://user-images.githubusercontent.com/114255407/202771421-23cf9703-f74d-412e-b2e3-792f832f420e.png">
+
+## Switch Mode
+
+It is easier to switch mode with python code.
+
+- r (lowercase) -> read from BOOT PIN and recored the raw data to sequencer.txt file
+
+- w (lowercase) -> write the data stored in sequencer.txt to QTPY-2040
+
+## Explain
+
+In this part, the python code will communicate with QTPY 2040 via tty terminal. First, in read mode, the Python code will sent a 'r' to qtpy 2040 indicates starting to read the BOOT PIN status(1 or 0) for specific duration, such as 5 sec,and stored the data into a txt file. Then reboot the python code, microcontroller and input 'w', the python also write a 'w' to 2040 and it will return "OK" to python, then allow the python to write the data into WS2812.
+

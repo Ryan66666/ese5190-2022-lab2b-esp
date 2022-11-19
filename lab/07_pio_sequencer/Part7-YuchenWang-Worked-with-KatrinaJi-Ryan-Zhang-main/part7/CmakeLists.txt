@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.13) # CMAKE (heading)
+include(pico_sdk_import.cmake) # CMAKE -> PICO SDK (include)
+
+project(part7 C CXX ASM) # CMAKE ("project")
+pico_sdk_init() # PICO SDK (initialization)
+
+add_executable(part7) # CMAKE (target)
+
+pico_generate_pio_header(part7 ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated) # PICO SDK (PIO)
+
+target_sources(part7 PRIVATE part7.c neopixel.c ws2812.c register.h ws2812.h)
+
+target_link_libraries(part7 PRIVATE pico_stdlib hardware_pio hardware_dma) # CMAKE -> C linker)
+
+pico_enable_stdio_usb(part7 1) # PICO SDK (USB)
+pico_enable_stdio_uart(part7 0) # PICO SDK (USB)
+
+pico_add_extra_outputs(part7) # PICO SDK (UF2)

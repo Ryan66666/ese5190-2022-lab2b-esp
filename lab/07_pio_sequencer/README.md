@@ -13,6 +13,10 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2b
     katji@seas.upenn.edu
     Tested on:  MacBook Pro (14-inch, 2021), macOS Monterey 12.6
     
+    Ryan Zhang
+    zcy6@seas.upenn.edu
+    Tested on: Lenovo Legoin R900X
+    
 ## GIF of Reading Data from BOOT PIN with PIO and Write:
 
 

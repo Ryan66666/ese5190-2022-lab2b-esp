@@ -5,7 +5,7 @@ Create a REPL to let you read and write RP2040 registers from a console. You sho
 - read/write any 32-bit value to this address
 - read/write using any of the atomic bit-setting aliases and a 32-bit mask
 
-# Worked with Katrina Ji & Yuchen Wang
+# Ryan Zhang Worked with Katrina Ji & Yuchen Wang
 
 ## REPL
 

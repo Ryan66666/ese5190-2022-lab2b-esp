@@ -12,7 +12,10 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2b
     Katrina Ji
     katji@seas.upenn.edu
     Tested on:  MacBook Pro (14-inch, 2021), macOS Monterey 12.6
-
+    
+    Ryan Zhang
+    zcy6@seas.upenn.edu
+    Tested on: Lenova Legion
 ---
 
 # GIF of Results:
